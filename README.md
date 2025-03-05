@@ -24,10 +24,10 @@ Ejemplo para **Bandit Level 1 → Level 2**:
 **Objetivo:** Leer el archivo oculto en el directorio home.
 
 **Comando:**
-```bash
+`bash
 ls -la
 cat ./-
-```
+`
 
 **Solución:**
 Usamos `ls -la` para listar los archivos ocultos y `cat ./-` para leer el contenido del archivo `-`, que contiene la contraseña del siguiente nivel.
